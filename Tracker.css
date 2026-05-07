@@ -1,0 +1,83 @@
+.header
+{
+   background: #476ef7;
+   color: white;
+   padding-left: 25px;
+   font-size: 20px;
+}
+
+.input-form
+{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476ef7;
+    margin: 15px;
+    padding: 10px ;
+}
+
+#add-button
+{
+    background: #476ef7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: x-large;
+    font-weight: 600;
+    color:white;
+}
+.cards
+{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.card
+{
+    background: #476ef7;
+    border: 0px;
+    height: 150px;
+
+}
+.card-body
+{
+    color: white;
+}
+.Transaction-table
+{
+    border: 1px black solid;
+    width: 95%; 
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+    padding: 0px;
+   
+}
+#header-row 
+{
+    background: #476ef7;
+     
+}
+#header-row th
+{
+   padding: 15px 10px;
+   color: white;
+}
+.delete-btn
+{
+    background-color: #476ef7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.delete-btn:hover
+{
+    background-color: red;
+}
